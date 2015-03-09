@@ -35,13 +35,13 @@ public class imagenes extends Fragment {
 
         switch (msg){
             case "1":
-                parentView.setBackgroundResource(R.drawable.ACII_i);
+                parentView.setBackgroundResource(R.drawable.ac2i);
                 break;
             case "2":
-                parentView.setBackgroundResource(R.drawable.ACR_i);
+                parentView.setBackgroundResource(R.drawable.aci);
                 break;
             case "3":
-                parentView.setBackgroundResource(R.drawable.ACIII_i);
+                parentView.setBackgroundResource(R.drawable.ac3i);
                 break;
         }
     }

@@ -5,24 +5,27 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:id="@+id/ACII"
-        android:background="@drawable/ACII"></LinearLayout>
+        android:background="@drawable/ac2"
+        android:layout_weight="0.5"></LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:id="@+id/ACR"
-        android:background="@drawable/ACR"></LinearLayout>
+        android:background="@drawable/ac"
+        android:layout_weight="0.5"></LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:id="@+id/ACIII"
-        android:background="@drawable/ACIII"></LinearLayout>
+        android:background="@drawable/ac3"
+        android:layout_weight="0.5"></LinearLayout>
 
 </LinearLayout>
